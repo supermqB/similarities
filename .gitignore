@@ -130,3 +130,4 @@ dmypy.json
 .idea/
 
 text2vec-base-chinese/
+Conan-embedding-v1/

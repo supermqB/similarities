@@ -19,7 +19,7 @@ corpus = [
     '中央情报局局长访问以色列叙利亚会谈',
     '人在巴基斯坦基地的炸弹袭击中丧生',
 ]
-model = BertSimilarity(model_name_or_path="./text2vec-base-chinese")
+model = BertSimilarity(model_name_or_path="./Conan-embedding-v1")
 print(model)
 similarity_score = model.similarity(sentences[0], sentences[1])
 print(f"{sentences[0]} vs {sentences[1]}, score: {float(similarity_score):.4f}")
